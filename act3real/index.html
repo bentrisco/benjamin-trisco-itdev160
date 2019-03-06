@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+    <title>Triton Submarines</title>
+    <meta name="description" content="A media driven website for you.">
+    <meta name="keywords" content="media, audio, video, html, css">
+        <meta name="shortcut icon" href="images/favicon.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/master.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+</head>
+<body>
+<header>
+<h1 id="mainHeader"> Triton Submarines </h1>
+</header>
+<nav>
+<ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="reviews.html">REVIEWS</a></li>
+     </ul>
+</nav>
+<section>
+<h1>Triton Submarine for You and for Me</h1>
+    <script>
+     var myHours = new Date();
+    var hours = myHours.getHours();
+    if (hours > 12) {
+        document.getElementById("mainHeader").innerHTML = "Good Afternoon, Welcome and enjoy.";
+    } else {
+        document.getElementById("mainHeader").innerHTML = "Good Morning, Welcome to and enjoy.";
+    }
+    
+    
+    </script>
+<label class="labelOne">Please browse around for product pictures and reviews.</label>
+<figure class="subPic"> <img src="images/submarine.jpg" alt="Submarine" width="900" height="600"> <figcaption><i>Sub fig. 1</i> The Triton</figcaption> </figure>
+ 
+</section>
+<footer>
+<p>Copyright &copy; 2019</p>
+</footer>
+
+</body>
+</html>

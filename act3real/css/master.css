@@ -1,0 +1,54 @@
+body {
+    background-color: darkgray;
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    height: 8em;
+    background-color: darkseagreen;
+}
+header h1 {
+    line-height: 3em;
+    text-align: center;
+}
+nav {
+    font size: 1.5em;
+    font-family: arial, sans-serif;
+    font-weight:800;
+}
+nav li, nav a:link, nav a:visited{
+    display: inline-block;
+    width:8em;
+    text-align:center;
+    text-decoration:none;
+    color:darkblue;
+    transition-property:all;
+    transition-duration:0.25s;
+    
+}
+nav a:hover {
+    color:coral;
+    background-color: crimson;
+    text-shadow: 3px 3px 4px black;
+}
+
+.subPic {
+    float:left;
+    padding-right:50em;
+    padding-top:50px;
+}
+figure {
+    max-width:15em;
+    float:left;
+    padding-right:50em;
+    padding-top:50px;
+    
+}
+
+label {
+    float:left;
+    clear:both;
+}
+footer {
+clear:left;
+}
