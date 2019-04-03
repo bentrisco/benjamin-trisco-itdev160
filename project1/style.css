@@ -1,0 +1,158 @@
+
+
+/*Desktop*/
+@media screen and (min-width: 601px){
+nav {
+background-color:#6d7993;
+}
+aside {
+float: left;
+width: 30%;
+min-height: 10em;
+    }
+#main {
+padding-left:160px
+    }
+#picmain {
+padding-left:10em;
+}
+section {
+width: 70%;
+float: left;
+min-height: 10em;
+    }
+}
+body {
+background-color:dimgray;
+margin: 0;
+font-family: verdana;
+}
+h1 {text-align:center;
+    
+}
+header h1 {
+color:#fff;
+text-align: center;
+line-height: 1.5em;
+}
+main {
+background-color:#9099A2;
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+overflow: hidden;
+}
+header {
+background-color:#D5D5D5;
+font-family:sans-serif;
+color:cadetblue;
+height: 3em;
+}
+nav {
+padding-top:.1em;
+padding-bottom:.1em;
+text-align:center;
+padding-left: 12.5em;
+}
+nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-right:7%;
+    
+}
+nav li{
+    margin:0 1em;
+    width:6em;
+}
+nav a:link, nav a:visited {
+    line-height: 1em;
+    color:black;
+    text-decoration: none;
+}
+nav a:hover {
+    color:chartreuse;
+}
+img {
+    width:100%;
+}
+
+#picture{
+    max-width:35em;
+}
+#pic2 {
+    max-width:35em;
+    float:right;
+}
+#pic3 {
+    max-width:35em;
+    float:left;
+    padding-right:50em;
+    padding-top:50px;
+}
+#pic4 {
+    float:right;
+    max-width:35em;
+    position:absolute;
+    padding-left:40em;
+    padding-top:27em;
+    
+}
+#main {
+    font-style: italic;
+    font-family:fantasy;
+    text-align:center;
+    padding-bottom:100px;
+    min-height:1px;
+    max-height:1px;
+
+    
+}
+footer {
+   height:8em;
+   clear:both;
+}
+#greeting {
+    font-style: italic;
+    font-family:fantasy;
+    text-align:center;
+    padding-bottom:100px;
+    min-height:1px;
+    max-height:1px;
+}
+/*Mobile Device*/
+@media screen and (max-width: 600px){
+    nav {
+  background-color:#6d7993;
+        padding-left:55px;
+        text-align:center;
+        min-height: 75px;
+}
+    aside {
+    min-height: 5em;
+    }
+    section {
+    min-height: 5em;
+    }
+    #main {
+      
+        min-width:10em;
+        padding-left:10px;
+    padding-right:20px;
+    }
+    #pic3 {
+    min-width:25em;
+}
+    #pic4 {
+        min-width:25em;
+        position:inherit;
+        padding:1px;
+    }
+}
+
+footer {
+    text-align:center;
+    clear:both;
+    padding-top:200px;
+    height:3em;
+}
