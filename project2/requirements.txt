@@ -1,0 +1,9 @@
+Project description - This is an album information website. 
+In the future, people will be able to input their own information and upload 
+album data to the server.
+Also, this website has the ability to become a storefront for selling albums.
+
+Feature list - This website uses Javascript to inject data from an array to the user 
+as well as displays the album cover art. We get information like artist, album title, etc.
+Uses JS to inject the data. Uses html to allow the inejcted data. 
+

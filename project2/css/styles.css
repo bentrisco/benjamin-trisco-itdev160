@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #130036;
+   /* width: 90%;*/
+    margin: 0 auto;
+}
+header{
+    height: 8em;
+    background-color: #130036;
+}
+header h1 {
+    line-height: 3em;
+    text-align: center;
+    color: white;
+}
+
+.headerSecond {
+color: black;
+background-color: rgb(161, 47, 255);
+text-align: center;
+font-style: italic;
+}
+.package-container {
+   /* line-height: 3em;*/
+    text-align: center;
+    color: rgb(174, 149, 231);
+    text-shadow: 3px 3px 4px;
+}
+nav {
+    font size: 1.5em;
+    font-family: arial, sans-serif;
+    font-weight:800;
+    text-align: center;
+}
+nav li, nav a:link, nav a:visited{
+    display: inline-block;
+    width:8em;
+    text-align:center;
+    text-decoration:none;
+    color:rgb(186, 186, 251);
+    transition-property:all;
+    transition-duration:0.25s;
+
+}
+nav a:hover {
+    color:rgb(0, 200, 255);
+    background-color: rgb(110, 81, 206);
+    text-shadow: 3px 3px 4px black;
+}
+
+label {
+    float:left;
+    clear:both;
+}
+footer {
+clear:left;
+}
