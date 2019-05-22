@@ -1,0 +1,150 @@
+body {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.messages {
+  margin-bottom: 20px;
+}
+
+.out-message {
+  padding: 5px;
+  background: rgb(240, 217, 255);
+}
+
+.in-message {
+  padding: 5px;
+  background-color: rgb(255, 0, 0);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ff5748;
+   /* width: 90%;*/
+    margin: 0 auto;
+    padding:0;
+}
+header{
+   /* height: 20em;*/
+    background-color: #ff5748;
+    width:592px;
+}
+header h1 {
+    line-height: 3em;
+    text-align: center;
+    color: white;
+}
+.mainHeader {
+
+}
+.charPic {
+  margin-left: -75px;
+}
+.charPic1 {
+  margin-left: -40px;
+}
+.headerSecond {
+color: black;
+background-color: rgb(163, 1, 1);
+text-align: center;
+font-style: italic;
+}
+.package-container {
+   /* line-height: 3em;*/
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 4px;
+}
+header .header-title {
+    display: inline-block;
+}
+
+header .header-menu {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #777;
+    font-size: smaller;
+}
+
+main #display-content {
+    padding: 20px;
+}
+
+nav {
+    font size: 1.5em;
+    font-family: arial, sans-serif;
+    font-weight:800;
+    text-align: center;
+}
+nav li, nav a:link, nav a:visited{
+    display: inline-block;
+    width:8em;
+    text-align:center;
+    text-decoration:none;
+    color:rgb(255, 251, 2);
+    transition-property:all;
+    transition-duration:0.25s;
+
+}
+nav a:hover {
+    color:rgb(252, 176, 255);
+    background-color: rgb(255, 0, 0);
+    text-shadow: 3px 3px 4px black;
+}
+
+label {
+    float:left;
+    clear:both;
+}
+footer {
+clear:left;
+}
+.modal-backdrop {
+    display: none;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    }
+
+    #modal-backdrop.visible {
+        display: block;
+    }
+
+    .modal {
+        display: none;
+        position: absolute;
+        padding: 10px;
+        border: solid 1px #555;
+        background-color: #fff;
+        z-index: 99999;
+        width: 300px;
+        height: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .modal.visible {
+        display: block;
+    }
+
+    .modal-content {
+        width: 300px;
+        height: 300px;
+    }
+
+    #edit-title-text {
+        width: 300px;
+        margin-bottom:5px;
+        box-sizing: border-box;
+    }
+
+    #edit-content-text {
+        width: 100%;
+        box-sizing: border-box;
+    }

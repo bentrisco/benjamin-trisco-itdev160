@@ -1,0 +1,10 @@
+This website is designed to help people reach charities
+with which they can donate to. The charities listed on 
+the site are geared more towards children and helping kids.
+There is a feedback area and a chat area. The site is created
+so that we can go back later with more knowledge and 
+improve it further.
+
+There is a list of the charities, and you can click on the picture
+to go to their website. You can utilize the blog function or the chat
+function.
